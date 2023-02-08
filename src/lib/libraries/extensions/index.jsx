@@ -70,6 +70,26 @@ export default [
     {
         name: (
             <FormattedMessage
+                defaultMessage="Internet"
+                description="Name for the 'Internet' extension"
+                id="gui.extension.internet.name"
+            />
+        ),
+        extensionId: 'internet',
+        iconURL: musicIconURL,
+        insetIconURL: musicInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Surf the internet on your Scratch project."
+                description="Description for the 'Internet' extension"
+                id="gui.extension.internet.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
                 defaultMessage="Pen"
                 description="Name for the 'Pen' extension"
                 id="gui.extension.pen.name"
