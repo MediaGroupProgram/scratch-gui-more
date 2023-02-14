@@ -76,8 +76,8 @@ export default [
             />
         ),
         extensionId: 'internet',
-        iconURL: musicIconURL,
-        insetIconURL: musicInsetIconURL,
+        iconURL: https://www.ecrirepourleweb.com/content/uploads/2014/02/image-web.jpg,
+        insetIconURL: https://www.ecrirepourleweb.com/content/uploads/2014/02/image-web.jpg,
         description: (
             <FormattedMessage
                 defaultMessage="Surf the internet on your Scratch project."
